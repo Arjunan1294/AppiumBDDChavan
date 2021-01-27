@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68614" started-at="2021-01-23T13:08:09 IST" finished-at="2021-01-23T13:09:17 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunnerBase.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyPixel3TestNGRunnerTest@50b494a6]" name="scenario" class="com.qa.runners.RunnerBase"/>
+        <method signature="RunnerBase.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyRedmiTestNGRunnerTest@131276c2]" name="scenario" class="com.qa.runners.RunnerBase"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="RedmiNote9" duration-ms="46346" started-at="2021-01-23T13:08:09 IST" finished-at="2021-01-23T13:08:55 IST">
+      <class name="com.qa.runners.MyRedmiTestNGRunnerTest">
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.runners.MyRedmiTestNGRunnerTest@131276c2]" name="setUpClass" is-config="true" duration-ms="19373" started-at="2021-01-23T13:08:09 IST" finished-at="2021-01-23T13:08:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a704ebf7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Redmi Note 9 pro max]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyRedmiTestNGRunnerTest@131276c2]" name="scenario" duration-ms="7637" started-at="2021-01-23T13:08:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-23T13:08:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyRedmiTestNGRunnerTest@131276c2]" name="scenario" duration-ms="6056" started-at="2021-01-23T13:08:36 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-23T13:08:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyRedmiTestNGRunnerTest@131276c2]" name="scenario" duration-ms="10463" started-at="2021-01-23T13:08:42 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-23T13:08:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid user name and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runners.MyRedmiTestNGRunnerTest@131276c2]" name="tearDownClass" is-config="true" duration-ms="2554" started-at="2021-01-23T13:08:52 IST" finished-at="2021-01-23T13:08:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runners.MyRedmiTestNGRunnerTest -->
+    </test> <!-- RedmiNote9 -->
+    <test name="Pixel3" duration-ms="68614" started-at="2021-01-23T13:08:09 IST" finished-at="2021-01-23T13:09:17 IST">
+      <class name="com.qa.runners.MyPixel3TestNGRunnerTest">
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.runners.MyPixel3TestNGRunnerTest@50b494a6]" name="setUpClass" is-config="true" duration-ms="26221" started-at="2021-01-23T13:08:09 IST" finished-at="2021-01-23T13:08:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pixel_3a_API_30_x86]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyPixel3TestNGRunnerTest@50b494a6]" name="scenario" duration-ms="16435" started-at="2021-01-23T13:08:35 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-23T13:08:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyPixel3TestNGRunnerTest@50b494a6]" name="scenario" duration-ms="10002" started-at="2021-01-23T13:08:51 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-23T13:09:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyPixel3TestNGRunnerTest@50b494a6]" name="scenario" duration-ms="12711" started-at="2021-01-23T13:09:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-23T13:09:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid user name and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runners.MyPixel3TestNGRunnerTest@50b494a6]" name="tearDownClass" is-config="true" duration-ms="3142" started-at="2021-01-23T13:09:14 IST" finished-at="2021-01-23T13:09:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runners.MyPixel3TestNGRunnerTest -->
+    </test> <!-- Pixel3 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:45:19.698 ServerManager:20 - starting appium server
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:45:26.965 ServerManager:29 - Appium server started
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:45:27.017 DriverManager:28 - initializing Appium driver
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:45:27.087 PropertyManager:17 - loading config properties
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:45:27.089 CapabilitiesManager:18 - getting capabilities
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:45:27.096 CapabilitiesManager:34 - appUrl isC:\Users\lenovo\eclipse-workspace\AppiumCucumberTDD\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:45:55.355 DriverManager:40 - Driver is initialized
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:01.859 BasePage:71 - login with invalidUsername
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:03.800 BasePage:71 - password is secret_sauce
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:05.049 BasePage:54 - press login button
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:06.611 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:08.131 VideoManager:35 - video path: Android_pixel_3a_API_30_x86\Videos\Login with invalid user name.mp4
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:10.236 BasePage:71 - login with standard_user
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:12.127 BasePage:71 - password is invalidPassword
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:13.316 BasePage:54 - press login button
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:14.365 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:15.757 VideoManager:35 - video path: Android_pixel_3a_API_30_x86\Videos\Login with invalid password.mp4
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:17.801 BasePage:71 - login with standard_user
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:19.718 BasePage:71 - password is secret_sauce
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:20.890 BasePage:54 - press login button
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:25.428 BasePage:97 - product page title is - PRODUCTS
+[Android_pixel_3a_API_30_x86 INFO ] 2021-01-24 14:46:27.494 VideoManager:35 - video path: Android_pixel_3a_API_30_x86\Videos\Login with valid user name and password.mp4
